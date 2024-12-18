@@ -21,9 +21,12 @@
 			width: 100px;
 		}
 		td {border: 1px #ffffff solid;}
-		.tr-anglais {background-color: blue;}
-		.tr-grec {background-color: green;}
-		.tr-latin {background-color: red;}
+		.table-anglais td,
+		.tr-anglais td {border-color: blue;}
+		.table-grec td,
+		.tr-grec td {border-color: green;}
+		.table-latin td,
+		.tr-latin td {border-color: red;}
 	</style>
 </head>
 <body>
@@ -32,7 +35,7 @@
 <div class = div-colonnes>
 	<div>
 		<h2>Alphabet grec</h2>
-		<table>
+		<table class = table-grec>
 			<tr><td>Α</td><td>α</td></tr>
 			<tr><td>Β</td><td>β / ϐ</td></tr>
 			<tr><td>Γ</td><td>γ</td></tr>
@@ -66,7 +69,7 @@
 	</div>
 	<div>
 		<h2>Alphabet latin</h2>
-		<table>
+		<table class = table-latin>
 			<tr><td>A</td><td>a</td></tr>
 			<tr><td>B</td><td>b</td></tr>
 			<tr><td>C</td><td>c</td></tr>

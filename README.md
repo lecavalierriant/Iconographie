@@ -3,4 +3,4 @@
 
 Une liste non exhaustive d'écritures iconographiques.
 
-Lien : https://le-cavalier-riant.github.io/Iconographie
+Lien : https://lecavalierriant.github.io/Iconographie

@@ -21,6 +21,9 @@
 			width: 100px;
 		}
 		td {border: 1px #ffffff solid;}
+		.tr-anglais {background-color: blue;}
+		.tr-grec {background-color: green;}
+		.tr-latin {background-color: red;}
 	</style>
 </head>
 <body>
@@ -30,7 +33,6 @@
 	<div>
 		<h2>Alphabet grec</h2>
 		<table>
-			<tr><th colspan = 2>Lettres</th></tr>
 			<tr><td>Α</td><td>α</td></tr>
 			<tr><td>Β</td><td>β / ϐ</td></tr>
 			<tr><td>Γ</td><td>γ</td></tr>
@@ -65,19 +67,18 @@
 	<div>
 		<h2>Alphabet latin</h2>
 		<table>
-			<tr><th colspan = 2>Lettres</th></tr>
 			<tr><td>A</td><td>a</td></tr>
-			<!-- <tr><td>B</td><td>b</td></tr> -->
+			<tr><td>B</td><td>b</td></tr>
 			<tr><td>C</td><td>c</td></tr>
 			<!-- <tr><td>D</td><td>d</td></tr> -->
 			<tr><td>E</td><td>e</td></tr>
 			<!-- <tr><td>F</td><td>f</td></tr> -->
-			<!-- <tr><td>G</td><td>g</td></tr> -->
+			<tr><td>G</td><td>g</td></tr>
 			<tr><td>H</td><td>h</td></tr>
 			<tr><td>I / J</td><td>i / j</td></tr>
 			<!-- <tr><td>K</td><td>k</td></tr> -->
 			<tr><td>L</td><td>l</td></tr>
-			<!-- <tr><td>M</td><td>m</td></tr> -->
+			<tr><td>M</td><td>m</td></tr>
 			<!-- <tr><td>N</td><td>n</td></tr> -->
 			<!-- <tr><td>O</td><td>o</td></tr> -->
 			<tr><td>P</td><td>p</td></tr>
@@ -98,26 +99,25 @@
 <h2>Ligatures</h2>
 <div class = div-colonnes>
 	<table>
-		<tr><th>Lettres</th><td>Graphie</th></tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>Α + Η =</td>
 			<td><img src = Ligatures/ΑΗ-1.png alt = ΑΗ></td>
 		</tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>Α + Ρ =</td>
 			<td><img src = Ligatures/ΑΡ-1.png alt = ΑΡ></td>
 		</tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>Α + Υ =</td>
 			<td><img src = Ligatures/ΑΥ-1.png alt = ΑΥ></td>
 		</tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>Ο + Α =</td>
 			<td><img src = Ligatures/ΟΑ-1.png alt = ΟΑ></td>
 			<td><img src = Ligatures/ΟΑ-2.png alt = ΟΑ></td>
 			<td><img src = Ligatures/ΟΑ-3.png alt = ΟΑ></td>
 		</tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>Ο + Σ =</td>
 			<td><img src = Ligatures/ΟΣ-1.png alt = ΟΣ></td>
 			<td><img src = Ligatures/ΟΣ-2.png alt = ΟΣ></td>
@@ -129,13 +129,12 @@
 <h3>Le Saint</h3>
 <div class = div-colonnes>
 	<table>
-		<tr><th>Textes</th><th>Graphie</th></tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>Ὁ ΆΓΙΟΣ</td>
 			<td><img src = Textes/Ὁ-ΆΓΙΟΣ-1.png alt = Ὁ-ΆΓΙΟΣ></td>
 			<td><img src = Textes/Ὁ-ΆΓΙΟΣ-2.png alt = Ὁ-ΆΓΙΟΣ></td>
 		</tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>Ὁ Ά</td>
 			<td><img src = Textes/Ὁ-Ά-1.png alt = Ὁ-Ά></td>
 			<td><img src = Textes/Ὁ-Ά-2.png alt = Ὁ-Ά></td>
@@ -143,11 +142,10 @@
 		</tr>
 	</table>
 	<table>
-		<tr><th>Textes</th><th>Graphie</th></tr>
-		<tr>
+		<tr class = tr-latin>
 			<td>SANCTUS</td>
 		</tr>
-		<tr>
+		<tr class = tr-latin>
 			<td>SCS</td>
 			<td><img src = Textes/SCS-1.png alt = SCS></td>
 			<td><img src = Textes/SCS-2.png alt = SCS></td>
@@ -158,8 +156,7 @@
 <h3>La Sainte</h3>
 <div class = div-colonnes>
 	<table>
-		<tr><th>Textes</th><th>Graphie</th></tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>Ἡ ἉΓΊΑ</td>
 			<td><img src = Textes/Ἡ-ἉΓΊΑ-1.png alt = Ἡ-ἉΓΊΑ></td>
 		</tr>
@@ -169,11 +166,10 @@
 <h3>Mère de Dieu</h3>
 <div class = div-colonnes>
 	<table>
-		<tr><th>Textes</th><th>Graphie</th></tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>ΜΗΤΗΡ ΘΕΟΥ</td>
 		</tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>ΜΡ ΘΥ</td>
 			<td><img src = Textes/ΜΡ-1.png alt = ΜΡ><img src = Textes/ΘΥ-1.png alt = ΘΥ></td>
 		</tr>
@@ -183,11 +179,10 @@
 <h3>Jésus-Christ Fils de Dieu Sauveur</h3>
 <div class = div-colonnes>
 	<table>
-		<tr><th>Textes</th><th>Graphie</th></tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>ΙΗΣΟΥΣ ΧΡΙΣΤΟΣ ΘΕΟΥ ΥΙΟΣ ΣΩΤΗΡ</td>
 		</tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>ΙΧΘΥΣ</td>
 			<td><img src = Textes/ΙΧΘΥΣ-1.png alt = ΙΧΘΥΣ></td>
 		</tr>
@@ -197,8 +192,7 @@
 <h3>Celui qui est</h3>
 <div class = div-colonnes>
 	<table>
-		<tr><th>Textes</th><th>Graphie</th></tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>Ὁ ὬΝ</td>
 			<td><img src = Textes/Ὁ-ὬΝ-1.png alt = Ὁ-ὬΝ></td>
 		</tr>
@@ -208,26 +202,31 @@
 <h3>L'Archange / Le Chef</h3>
 <div class = div-colonnes>
 	<table>
-		<tr><th>Textes</th><th>Graphie</th></tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>Ὁ ἌΡΧΑΓΓΕΛΟΣ</td>
 		</tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>Ὁ ἌΡΧΩΝ</td>
 			<td><img src = Textes/Ὁ-ἌΡΧΩΝ-1.png alt = Ὁ-ἌΡΧΩΝ></td>
 		</tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>Ὁ ἌΡ</td>
 			<td><img src = Textes/Ὁ-ἌΡ-1.png alt = Ὁ-ἌΡ></td>
 			<td><img src = Textes/Ὁ-ἌΡ-2.png alt = Ὁ-ἌΡ></td>
 		</tr>
 	</table>
-	<table></table>
+	<table>
+		<tr class = tr-anglais>
+			<td>ARCHANGEL</td>
+			<td><img src = Textes/ARCHANGEL-1.png alt = ARCHANGEL></td>
+			<td><img src = Textes/ARCHANGEL-2.png alt = ARCHANGEL></td>
+		</tr>
+	</table>
 </div>
 <h3>Le pourpre-né</h3>
 <div class = div-colonnes>
 	<table>
-		<tr>
+		<tr class = tr-grec>
 			<td>Ὁ ΠΟΡΦΥΡΟΓΈΝΝΗΤΟΣ</td>
 			<td><img src = Textes/Ὁ-ΠΟΡΦΥΡΟΓΈΝΝΗΤΟΣ-1.png alt = Ὁ-ΠΟΡΦΥΡΟΓΈΝΝΗΤΟΣ></td>
 		</tr>
@@ -237,7 +236,7 @@
 <h3>Roi des Romains</h3>
 <div class = div-colonnes>
 	<table>
-		<tr>
+		<tr class = tr-grec>
 			<td>ΒΑΣΙΛΕΎΣ ΡΩΜΑΊΩΝ</td>
 			<td><img src = Textes/ΒΑΣΙΛΕΎΣ-1.png alt = ΒΑΣΙΛΕΎΣ></td>
 			<td><img src = Textes/ΡΩΜΑΊΩΝ-1.png alt = ΡΩΜΑΊΩΝ></td>
@@ -249,11 +248,10 @@
 <h3>Jésus-Christ</h3>
 <div class = div-colonnes>
 	<table>
-		<tr><th>Textes</th><th>Graphie</th></tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>ΙΗΣΟΥΣ ΧΡΙΣΤΟΣ</td>
 		</tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>ΙΣ ΧΣ</td>
 			<td><img src = Noms/ΙΣ-1.png alt = ΙΣ><img src = Noms/ΧΣ-1.png alt = ΧΣ></td>
 		</tr>
@@ -263,31 +261,41 @@
 <h4>Michel</h4>
 <div class = div-colonnes>
 	<table>
-		<tr>
+		<tr class = tr-grec>
 			<td>ΜΙΧΑΉΛ</td>
 			<td><img src = Noms/ΜΙΧΑΉΛ-1.png alt = ΜΙΧΑΉΛ></td>
 		</tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>ΜΙ</td>
 			<td><img src = Noms/ΜΙ-1.png alt = ΜΙ></td>
 		</tr>
-		<table></table>
+		<table>
+			<tr class = tr-anglais>
+				<td>MICHAEL</td>
+				<td><img src = Noms/MICHAEL-1.png alt = MICHAEL></td>
+			</tr>
+		</table>
 	</table>
 </div>
 <h4>Gabriel</h4>
 <div class = div-colonnes>
 	<table>
-		<tr>
+		<tr class = tr-grec>
 			<td>ΓΑΒΡΙΗΛ</td>
 			<td><img src = Noms/ΓΑΒΡΙΉΛ-1.png alt = ΓΑΒΡΙΉΛ></td>
 		</tr>
 	</table>
-	<table></table>
+	<table>
+		<tr class = tr-anglais>
+			<td>GABRIEL</td>
+			<td><img src = Noms/GABRIEL-1.png alt = GABRIEL></td>
+		</tr>
+	</table>
 </div>
 <h4>Érasme</h4>
 <div class = div-colonnes>
 	<table>
-		<tr>
+		<tr class = tr-grec>
 			<td>ΕΡΑΣΜΟΣ</td>
 			<td><img src = Noms/ΕΡΑΣΜΟΣ-1.png alt = ΕΡΑΣΜΟΣ></td>
 		</tr>
@@ -297,10 +305,10 @@
 <h4>Constantin</h4>
 <div class = div-colonnes>
 	<table>
-		<tr>
+		<tr class = tr-grec>
 			<td>ΚΩΝΣΤΑΝΤΙ͂ΝΟΣ</td>
 		</tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>ΚΩΝ</td>
 			<td><img src = Noms/ΚΩΝ-1.png alt = ΚΩΝ></td>
 		</tr>
@@ -311,7 +319,7 @@
 <div class = div-colonnes>
 	<table></table>
 	<table>
-		<tr>
+		<tr class = tr-latin>
 			<td>PHILIPVS</td>
 			<td><img src = Noms/PHILIPVS-1.png alt = PHILIPVS></td>
 		</tr>
@@ -321,7 +329,7 @@
 <div class = div-colonnes>
 	<table></table>
 	<table>
-		<tr>
+		<tr class = tr-latin>
 			<td>PETRVS</td>
 			<td><img src = Noms/PETRVS-1.png alt = PETRVS></td>
 		</tr>
@@ -330,13 +338,13 @@
 <h4>Paul</h4>
 <div class = div-colonnes>
 	<table>
-		<tr>
+		<tr class = tr-grec>
 			<td>ΠΑΎΛΟΣ</td>
 			<td><img src = Noms/ΠΑΎΛΟΣ-1.png alt = ΠΑΎΛΟΣ></td>
 		</tr>
 	</table>
 	<table>
-		<tr>
+		<tr class = tr-latin>
 			<td>PAVLVS</td>
 			<td><img src = Noms/PAVLVS-1.png alt = PAVLVS></td>
 		</tr>
@@ -345,7 +353,7 @@
 <h4>Véronique</h4>
 <div class = div-colonnes>
 	<table>
-		<tr>
+		<tr class = tr-grec>
 			<td>ΒΕΡΟΝΊΚΗ</td>
 			<td><img src = Noms/ΒΕΡΟΝΊΚΗ-1.png alt = ΒΕΡΟΝΊΚΗ></td>
 		</tr>
@@ -355,10 +363,10 @@
 <h4>Jean</h4>
 <div class = div-colonnes>
 	<table>
-		<tr>
+		<tr class = tr-grec>
 			<td>ΙΩΆΝΝΗΣ</td>
 		</tr>
-		<tr>
+		<tr class = tr-grec>
 			<td>ΙΩ</td>
 			<td><img src = Noms/ΙΩ-1.png alt = ΙΩ></td>
 		</tr>

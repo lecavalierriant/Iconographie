@@ -1,30 +1,16 @@
+<!-- ============================================================================================================== -->
+<!--                                                                                                                -->
+<!--                                                 Iconographie                                                   -->
+<!--                                                                                                                -->
+<!-- ============================================================================================================== -->
+
 <!doctype html>
 <html lang = fr>
 <head>
 	<title>Iconographie</title>
 	<meta charset = utf-8>
 	<link rel = "shortcut icon" href = Noms/Grec/ΙΣ.png>
-	<style>
-		* {
-			color: #ffffff;
-			font-family: garamond;
-			text-align: center;
-			margin: auto;
-		}
-		body {
-			background-color: #303841;
-			font-size: 25px;
-		}
-		.div-colonnes {display: flex;}
-		img {
-			filter: drop-shadow(0 0 1px #ffffff);
-			width: 100px;
-		}
-		td {border: 1px #ffffff solid;}
-		.table-anglais td {border-color: blue;}
-		.table-grec td {border-color: green;}
-		.table-latin td {border-color: red;}
-	</style>
+	<link rel = stylesheet href = Iconographie.css>
 </head>
 <body>
 
@@ -102,41 +88,36 @@
 		<tr>
 			<td>Α + Η =</td>
 			<td><img src = Ligatures/Grec/ΑΗ.png alt = ΑΗ></td>
-		</tr>
-		<tr>
+		</tr><tr>
 			<td>Α + Ρ =</td>
 			<td><img src = Ligatures/Grec/ΑΡ.png alt = ΑΡ></td>
-		</tr>
-		<tr>
+		</tr><tr>
 			<td>Α + Υ =</td>
 			<td><img src = Ligatures/Grec/ΑΥ.png alt = ΑΥ></td>
-		</tr>
-		<tr>
+		</tr><tr>
 			<td>Η + Μ =</td>
 			<td><img src = Ligatures/Grec/ΗΜ.png alt = ΗΜ></td>
-		</tr>
-		<tr>
+		</tr><tr>
 			<td>Η + Μ + Η + Ν =</td>
 			<td><img src = Ligatures/Grec/ΗΜΗΝ.png alt = ΗΜΗΝ></td>
-		</tr>
-		<tr>
+		</tr><tr>
 			<td>Ο + Α =</td>
 			<td><img src = Ligatures/Grec/ΟΑ.png alt = ΟΑ></td>
 			<td><img src = Ligatures/Grec/ΟΑ-2.png alt = ΟΑ></td>
 			<td><img src = Ligatures/Grec/ΟΑ-3.png alt = ΟΑ></td>
-		</tr>
-		<tr>
+		</tr><tr>
 			<td>Ο + Σ =</td>
-			<td><img src = Ligatures/Grec/ΟΣ.png alt = ΟΣ></td>
-			<td><img src = Ligatures/Grec/ΟΣ-2.png alt = ΟΣ></td>
-		</tr>
-		<tr>
+			<td><img src = Ligatures/Grec/ΟΣ.png class = img-1-accent alt = ΟΣ></td>
+			<td><img src = Ligatures/Grec/ΟΣ-2.png class = img-2 alt = ΟΣ></td>
+		</tr><tr>
 			<td>Π + Ρ =</td>
 			<td><img src = Ligatures/Grec/ΠΡ.png alt = ΠΡ></td>
-		</tr>
-		<tr>
+		</tr><tr>
 			<td>Σ + Τ =</td>
 			<td><img src = Ligatures/Grec/ΣΤ.png alt = ΣΤ></td>
+		</tr><tr>
+			<td>Τ + Ω =</td>
+			<td><img src = Ligatures/Grec/ΤΩ.png alt = ΤΩ></td>
 		</tr>
 	</table>
 </div>
@@ -146,21 +127,19 @@
 	<table class = table-grec>
 		<tr>
 			<td>Ὁ ΆΓΙΟΣ</td>
-			<td><img src = Textes/Grec/Ὁ-ΆΓΙΟΣ.png alt = Ὁ-ΆΓΙΟΣ></td>
+			<td><img src = Textes/Grec/Ὁ-ΆΓΙΟΣ.png class = img-1-accent alt = Ὁ-ΆΓΙΟΣ></td>
 			<td><img src = Textes/Grec/Ὁ-ΆΓΙΟΣ-2.png alt = Ὁ-ΆΓΙΟΣ></td>
-		</tr>
-		<tr>
+		</tr><tr>
 			<td>Ὁ Ά</td>
-			<td><img src = Textes/Grec/Ὁ-Ά.png alt = Ὁ-Ά></td>
-			<td><img src = Textes/Grec/Ὁ-Ά-2.png alt = Ὁ-Ά></td>
-			<td><img src = Textes/Grec/Ὁ-Ά-3.png alt = Ὁ-Ά></td>
+			<td><img src = Textes/Grec/Ὁ-Ά.png class = img-1-accent alt = Ὁ-Ά></td>
+			<td><img src = Textes/Grec/Ὁ-Ά-2.png class = img-1-accent alt = Ὁ-Ά></td>
+			<td><img src = Textes/Grec/Ὁ-Ά-3.png class = img-1-accent alt = Ὁ-Ά></td>
 		</tr>
 	</table>
 	<table class = table-latin>
 		<tr>
 			<td>SANCTUS</td>
-		</tr>
-		<tr>
+		</tr><tr>
 			<td>SCS</td>
 			<td><img src = Textes/Latin/SCS.png alt = SCS></td>
 			<td><img src = Textes/Latin/SCS-2.png alt = SCS></td>
@@ -182,10 +161,9 @@
 	<table class = table-grec>
 		<tr>
 			<td>ΜΗΤΗΡ ΘΕΟΥ</td>
-		</tr>
-		<tr>
+		</tr><tr>
 			<td>ΜΡ ΘΥ</td>
-			<td><img src = Textes/Grec/ΜΡ.png alt = ΜΡ><img src = Textes/Grec/ΘΥ.png alt = ΘΥ></td>
+			<td><img src = Textes/Grec/ΜΡ.png class = img-1-accent alt = ΜΡ><img src = Textes/Grec/ΘΥ.png class = img-1-accent alt = ΘΥ></td>
 		</tr>
 	</table>
 </div>
@@ -194,8 +172,7 @@
 	<table class = table-grec>
 		<tr>
 			<td>ΙΗΣΟΥΣ ΧΡΙΣΤΟΣ ΘΕΟΥ ΥΙΟΣ ΣΩΤΗΡ</td>
-		</tr>
-		<tr>
+		</tr><tr>
 			<td>ΙΧΘΥΣ</td>
 			<td><img src = Textes/Grec/ΙΧΘΥΣ.png alt = ΙΧΘΥΣ></td>
 		</tr>
@@ -215,22 +192,20 @@
 	<table class = table-grec>
 		<tr>
 			<td>Ὁ ἈΡΧΑΓΓΕΛΟΣ</td>
-		</tr>
-		<tr>
+		</tr><tr>
 			<td>Ὁ ἌΡΧΩΝ</td>
 			<td><img src = Textes/Grec/Ὁ-ἌΡΧΩΝ.png alt = Ὁ-ἌΡΧΩΝ></td>
-		</tr>
-		<tr>
+		</tr><tr>
 			<td>Ὁ ἌΡ</td>
-			<td><img src = Textes/Grec/Ὁ-ἌΡ.png alt = Ὁ-ἌΡ></td>
-			<td><img src = Textes/Grec/Ὁ-ἌΡ-2.png alt = Ὁ-ἌΡ></td>
+			<td><img src = Textes/Grec/Ὁ-ἌΡ.png class = img-1-accent alt = Ὁ-ἌΡ></td>
+			<td><img src = Textes/Grec/Ὁ-ἌΡ-2.png class = img-1-accent alt = Ὁ-ἌΡ></td>
 		</tr>
 	</table>
 	<table class = table-anglais>
 		<tr>
 			<td>ARCHANGEL</td>
 			<td><img src = Textes/Anglais/ARCHANGEL.png alt = ARCHANGEL></td>
-			<td><img src = Textes/Anglais/ARCHANGEL-2.png alt = ARCHANGEL></td>
+			<td><img src = Textes/Anglais/ARCHANGEL-2.png class = img-3 alt = ARCHANGEL></td>
 		</tr>
 	</table>
 </div>
@@ -239,7 +214,7 @@
 	<table class = table-grec>
 		<tr>
 			<td>Ὁ ΠΟΡΦΥΡΟΓΈΝΝΗΤΟΣ</td>
-			<td><img src = Textes/Grec/Ὁ-ΠΟΡΦΥΡΟΓΈΝΝΗΤΟΣ.png alt = Ὁ-ΠΟΡΦΥΡΟΓΈΝΝΗΤΟΣ></td>
+			<td><img src = Textes/Grec/Ὁ-ΠΟΡΦΥΡΟΓΈΝΝΗΤΟΣ.png class = img-4-accent alt = Ὁ-ΠΟΡΦΥΡΟΓΈΝΝΗΤΟΣ></td>
 		</tr>
 	</table>
 </div>
@@ -248,8 +223,8 @@
 	<table class = table-grec>
 		<tr>
 			<td>ΒΑΣΙΛΕΎΣ ΡΩΜΑΊΩΝ</td>
-			<td><img src = Textes/Grec/ΒΑΣΙΛΕΎΣ.png alt = ΒΑΣΙΛΕΎΣ></td>
-			<td><img src = Textes/Grec/ΡΩΜΑΊΩΝ.png alt = ΡΩΜΑΊΩΝ></td>
+			<td><img src = Textes/Grec/ΒΑΣΙΛΕΎΣ.png class = img-4 alt = ΒΑΣΙΛΕΎΣ></td>
+			<td><img src = Textes/Grec/ΡΩΜΑΊΩΝ.png class = img-3-accent alt = ΡΩΜΑΊΩΝ></td>
 		</tr>
 	</table>
 </div>
@@ -263,16 +238,27 @@
 		</tr>
 	</table>
 </div>
+<h3>Le tout-puissant</h3>
+<div class = div-colonnes>
+	<table class = table-grec>
+		<tr>
+			<td>Ὁ ΠΑΝΤΟΚΡΆΤΩΡ</td>
+			<td><img src = Textes/Grec/Ὁ-ΠΑΝΤΟ.png class = img-2 alt = Ὁ-ΠΑΝΤΟ></td>
+			<td><img src = Textes/Grec/ΚΡΆΤΩΡ.png class = img-2 alt = ΚΡΆΤΩΡ></td>
+		</tr>
+	</table>
+</div>
 <h3>Noms</h3>
 <h3>Jésus-Christ</h3>
 <div class = div-colonnes>
 	<table class = table-grec>
 		<tr>
 			<td>ΙΗΣΟΎΣ ΧΡΙΣΤΌΣ</td>
-		</tr>
-		<tr>
+		</tr><tr>
 			<td>ΙΣ ΧΣ</td>
-			<td><img src = Noms/Grec/ΙΣ.png alt = ΙΣ><img src = Noms/Grec/ΧΣ.png alt = ΧΣ></td>
+			<td><img src = Noms/Grec/ΙΣ.png class = img-1-accent alt = ΙΣ><img src = Noms/Grec/ΧΣ.png class = img-1-accent alt = ΧΣ></td>
+			<td><img src = Noms/Grec/ΙΣ-2.png class = img-1-accent alt = ΙΣ><img src = Noms/Grec/ΧΣ-2.png class = img-1-accent alt = ΧΣ></td>
+			<td><img src = Noms/Grec/ΙΣ-3.png class = img-1-accent alt = ΙΣ><img src = Noms/Grec/ΧΣ-3.png class = img-1-accent alt = ΧΣ></td>
 		</tr>
 	</table>
 </div>
@@ -281,11 +267,10 @@
 	<table class = table-grec>
 		<tr>
 			<td>ΜΙΧΑΉΛ</td>
-			<td><img src = Noms/Grec/ΜΙΧΑΉΛ.png alt = ΜΙΧΑΉΛ></td>
-		</tr>
-		<tr>
+			<td><img src = Noms/Grec/ΜΙΧΑΉΛ.png class = img-1-accent alt = ΜΙΧΑΉΛ></td>
+		</tr><tr>
 			<td>ΜΙ</td>
-			<td><img src = Noms/Grec/ΜΙ.png alt = ΜΙ></td>
+			<td><img src = Noms/Grec/ΜΙ.png class = img-2 alt = ΜΙ></td>
 		</tr>
 		<table class = table-anglais>
 			<tr>
@@ -315,7 +300,7 @@
 	<table class = table-grec>
 		<tr>
 			<td>ΕΡΑΣΜΟΣ</td>
-			<td><img src = Noms/Grec/ΕΡΑΣΜΟΣ.png alt = ΕΡΑΣΜΟΣ></td>
+			<td><img src = Noms/Grec/ΕΡΑΣΜΟΣ.png class = img-3-accent alt = ΕΡΑΣΜΟΣ></td>
 		</tr>
 	</table>
 </div>
@@ -324,10 +309,9 @@
 	<table class = table-grec>
 		<tr>
 			<td>ΚΩΝΣΤΑΝΤΙΝΟΣ</td>
-		</tr>
-		<tr>
+		</tr><tr>
 			<td>ΚΩΝ</td>
-			<td><img src = Noms/Grec/ΚΩΝ.png alt = ΚΩΝ></td>
+			<td><img src = Noms/Grec/ΚΩΝ.png class = img-1-accent alt = ΚΩΝ></td>
 		</tr>
 	</table>
 </div>
@@ -369,7 +353,7 @@
 	<table class = table-grec>
 		<tr>
 			<td>ΒΕΡΟΝΊΚΗ</td>
-			<td><img src = Noms/Grec/ΒΕΡΟΝΊΚΗ.png alt = ΒΕΡΟΝΊΚΗ></td>
+			<td><img src = Noms/Grec/ΒΕΡΟΝΊΚΗ.png class = img-2-accent alt = ΒΕΡΟΝΊΚΗ></td>
 		</tr>
 	</table>
 </div>
@@ -378,13 +362,18 @@
 	<table class = table-grec>
 		<tr>
 			<td>ΙΩΆΝΝΗΣ</td>
-		</tr>
-		<tr>
+		</tr><tr>
 			<td>ΙΩ</td>
-			<td><img src = Noms/Grec/ΙΩ.png alt = ΙΩ></td>
+			<td><img src = Noms/Grec/ΙΩ.png class = img-1-accent alt = ΙΩ></td>
 		</tr>
 	</table>
 </div>
 
 </body>
 </html>
+
+<!-- ============================================================================================================== -->
+<!--                                                                                                                -->
+<!--                                                 Iconographie                                                   -->
+<!--                                                                                                                -->
+<!-- ============================================================================================================== -->

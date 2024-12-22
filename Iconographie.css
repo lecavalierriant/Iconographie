@@ -1,0 +1,42 @@
+/* ================================================================================================================= */
+/*                                                                                                                   */
+/*                                                   Iconographie                                                    */
+/*                                                                                                                   */
+/* ================================================================================================================= */
+
+* {
+	color: #ffffff;
+	font-family: garamond;
+	text-align: center;
+	margin: auto;
+}
+
+body {
+	background-color: #303841;
+	font-size: 25px;
+}
+
+.div-colonnes {display: flex;}
+
+img {
+	filter: drop-shadow(0 0 1px #ffffff);
+	height: 100px;
+}
+.img-1-accent {height: 125px;}
+.img-2 {height: 210px;}
+.img-2-accent {height: 235px;}
+.img-3 {height: 320px;}
+.img-3-accent {height: 345px;}
+.img-4 {height: 430px;}
+.img-4-accent {height: 455px;}
+
+td {border: 1px #ffffff solid;}
+.table-anglais td {border-color: blue;}
+.table-grec td {border-color: green;}
+.table-latin td {border-color: red;}
+
+/* ================================================================================================================= */
+/*                                                                                                                   */
+/*                                                   Iconographie                                                    */
+/*                                                                                                                   */
+/* ================================================================================================================= */

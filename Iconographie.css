@@ -63,8 +63,12 @@ td {
 	letter-spacing: 4px;
 }
 .table-anglais td {border: gray dotted;}
-.table-grec td {border-color: green;}
-.table-latin td {border-color: red;}
+.table-cyrillique td,
+.table-langues tr:nth-child(3) {border: green dotted;}
+.table-grec td,
+.table-langues tr:nth-child(1) {border-color: green;}
+.table-latin td,
+.table-langues tr:nth-child(2) {border-color: red;}
 .table-roumain td {border: blue dotted;}
 
 /* ================================================================================================================= */

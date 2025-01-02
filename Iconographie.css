@@ -67,14 +67,11 @@ td {
 	font-family: times new roman;
 	letter-spacing: 4px;
 }
-.table-anglais td {border: gray dotted;}
-.table-cyrillique td,
-.table-langues tr:nth-child(3) {border: green dotted;}
-.table-grec td,
-.table-langues tr:nth-child(1) {border-color: green;}
-.table-latin td,
-.table-langues tr:nth-child(2) {border-color: red;}
-.table-roumain td {border: blue dotted;}
+.table-anglais td {border: #990000 dotted;}
+.table-cyrillique td {border: #009900 dotted;}
+.table-grec td {border-color: #009900;}
+.table-latin td {border-color: #990000;}
+.table-roumain td {border: #990000 dotted;}
 
 /* ================================================================================================================= */
 /*                                                                                                                   */

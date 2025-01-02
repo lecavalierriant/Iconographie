@@ -73,6 +73,18 @@ td {
 .table-latin td {border-color: #990000;}
 .table-roumain td {border: #990000 dotted;}
 
+@media (max-width: 1000px) {
+
+	* {
+		border-radius: 50px;
+		box-shadow: 0 0 0;
+	}
+
+	body {font-size: 20px;}
+
+	.div-colonnes {display: block;}
+
+}
 /* ================================================================================================================= */
 /*                                                                                                                   */
 /*                                                   Iconographie                                                    */

@@ -71,8 +71,8 @@ td {
 }
 .table-anglais td {border: #990000 dotted;}
 .table-arabe td {
-	letter-spacing: 0;
 	border: #000099 dotted;
+	letter-spacing: 0;
 }
 .table-cyrillique td {border: #009900 dotted;}
 .table-grec td {border-color: #009900;}

@@ -75,14 +75,13 @@ td {
 
 @media (max-width: 1000px) {
 
-	* {
-		border-radius: 50px;
-		box-shadow: 0 0 0;
-	}
-
 	body {font-size: 50px;}
 
 	.div-colonnes {display: block;}
+
+	img {filter: drop-shadow(0 0 0);}
+
+	td {border-radius: 50px;}
 
 }
 /* ================================================================================================================= */

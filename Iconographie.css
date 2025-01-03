@@ -17,7 +17,7 @@ body {
 }
 
 .div-colonnes {display: flex;}
-.div-alphabets h2 {width: 100%;}
+.div-alphabets h3 {width: 100%;}
 
 h1 {
 	margin-bottom: 80px;

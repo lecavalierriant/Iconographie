@@ -66,6 +66,7 @@ td {
 .table-anglais td {border: #990000 dotted;}
 .table-arabe td {
 	border: #000099 dotted;
+	font-size: 35px;
 	letter-spacing: 0;
 }
 .table-cyrillique td {border: #009900 dotted;}

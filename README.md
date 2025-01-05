@@ -1,6 +1,6 @@
 **Iconographie**
 
-*© 2024 — Le Cavalier Riant*
+*© 2025 — Le Cavalier Riant*
 
 Une liste non exhaustive d'écritures iconographiques.
 

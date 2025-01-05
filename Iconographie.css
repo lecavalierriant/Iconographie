@@ -88,7 +88,7 @@ td {
 	img {filter: drop-shadow(0 0 0);}
 
 	td {border-radius: 50px;}
-table-arabe td {
+.table-arabe td {
 	border: #000099 dotted;
 	font-size: 70px;
 	letter-spacing: 0;

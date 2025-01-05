@@ -78,7 +78,15 @@ td {
 	font-size: 35px;
 	letter-spacing: 0;
 }
-#table-long {display: none;}
+#table-large {
+	font-family: garamond;
+	font-size: 25px;
+}
+#table-long {
+	display: none;
+	font-family: garamond;
+	font-size: 50px;
+}
 
 @media (max-width: 1000px) {
 

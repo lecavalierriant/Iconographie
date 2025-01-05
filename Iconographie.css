@@ -78,6 +78,7 @@ td {
 	font-size: 35px;
 	letter-spacing: 0;
 }
+#table-long {display: none;}
 
 @media (max-width: 1000px) {
 
@@ -88,18 +89,20 @@ td {
 	img {filter: drop-shadow(0 0 0);}
 
 	td {border-radius: 50px;}
-.table-arabe td {
-	border: #000099 dotted;
-	font-size: 70px;
-	letter-spacing: 0;
-}
-.table-syriaque td {
-	border: #000099 dotted;
-	font-size: 70px;
-	letter-spacing: 0;
+	.table-arabe td {
+		border: #000099 dotted;
+		font-size: 70px;
+		letter-spacing: 0;
+	}
+	.table-syriaque td {
+		border: #000099 dotted;
+		font-size: 70px;
+		letter-spacing: 0;
+	}
+	#table-large {display: none;}
+	#table-long {display: block;}
 }
 
-}
 /* ================================================================================================================= */
 /*                                                                                                                   */
 /*                                                   Iconographie                                                    */

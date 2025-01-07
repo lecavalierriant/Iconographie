@@ -98,6 +98,9 @@ td {
 
 	img {filter: drop-shadow(0 0 0);}
 
+	#table-large {display: none;}
+	#table-long {display: table;}
+
 	td {border-radius: 50px;}
 	.table-arabe td {
 		border: #000099 dotted;
@@ -109,8 +112,7 @@ td {
 		font-size: 70px;
 		letter-spacing: 0;
 	}
-	#table-large {display: none;}
-	#table-long {display: table;}
+
 }
 
 /* ================================================================================================================= */

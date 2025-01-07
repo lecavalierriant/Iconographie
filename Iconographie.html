@@ -11,8 +11,13 @@
 	<meta charset = utf-8>
 	<link rel = "shortcut icon" href = ΙΣ.png>
 	<link rel = stylesheet href = Iconographie.css>
+	<script src = Iconographie.js></script>
 </head>
-<body>
+<body onload = initialiser()>
+
+<!-- <div> -->
+	<!-- <audio src = https://upload.wikimedia.org/wikipedia/commons/6/65/Open_front_unrounded_vowel.ogg id = [a]></audio> -->
+<!-- </div> -->
 
 <div class = div-alphabets>
 	<h1><hr>Iconographie<hr></h1>
@@ -22,44 +27,75 @@
 			<h3><hr>Alphabet grec<hr></h3>
 			<table class = table-grec>
 				<tr><td>Α</td><td>α</td><td><img src = Calligraphie/Grec/Α.png alt = Α></td></tr>
-				<tr><td rowspan = 2>Β</td><td>β</td><td rowspan = 2><img src = Calligraphie/Grec/Β.png alt = Β></td></tr>
+				<tr>
+					<td rowspan = 2>Β</td><td>β</td><td rowspan = 2><img src = Calligraphie/Grec/Β.png alt = Β></td>
+				</tr>
 				<tr><td>ϐ</td></tr>
 				<tr><td>Γ</td><td>γ</td><td><img src = Calligraphie/Grec/Γ.png alt = Γ></td></tr>
 				<tr><td>Δ</td><td>δ</td><td><img src = Calligraphie/Grec/Δ.png alt = Δ></td></tr>
-				<tr><td rowspan = 2>Ε</td><td>ε</td><td rowspan = 2><img src = Calligraphie/Grec/Ε.png alt = Ε></td></tr>
+				<tr>
+					<td rowspan = 2>Ε</td><td>ε</td><td rowspan = 2><img src = Calligraphie/Grec/Ε.png alt = Ε></td>
+				</tr>
 				<tr><td>ϵ</td></tr>
 				<tr><td>Ζ</td><td>ζ</td><td><img src = Calligraphie/Grec/Ζ.png alt = Ζ></td></tr>
 				<tr><td>Η</td><td>η</td><td><img src = Calligraphie/Grec/Η.png alt = Η></td></tr>
 				<tr><td>Θ</td><td>θ</td><td rowspan = 2><img src = Calligraphie/Grec/Θ.png alt = Θ></td></tr>
 				<tr><td>ϴ</td><td>ϑ</td></tr>
 				<tr><td>Ι</td><td>ι</td><td><img src = Calligraphie/Grec/Ι.png alt = Ι></tr>
-				<tr><td rowspan = 2>Κ</td><td>κ</td><td rowspan = 2><img src = Calligraphie/Grec/Κ.png alt = Κ></td></tr>
+				<tr>
+					<td rowspan = 2>Κ</td><td>κ</td><td rowspan = 2><img src = Calligraphie/Grec/Κ.png alt = Κ></td>
+				</tr>
 				<tr><td>ϰ</td></tr>
 				<tr><td>Λ</td><td>λ</td><td><img src = Calligraphie/Grec/Λ.png alt = Λ></td></tr>
 				<tr><td>Μ</td><td>μ</td><td><img src = Calligraphie/Grec/Μ.png alt = Μ></td></tr>
 				<tr><td>Ν</td><td>ν</td><td><img src = Calligraphie/Grec/Ν.png alt = Ν></tr>
 				<!-- <tr><td>Ξ</td><td>ξ</td><td><img src = Calligraphie/Grec/Ξ.png alt = Ξ></td></tr> -->
 				<tr><td>Ο</td><td>ο</td><td><img src = Calligraphie/Grec/Ο.png alt = Ο></tr>
-				<tr><td rowspan = 2>Π</td><td>π</td><td rowspan = 2><img src = Calligraphie/Grec/Π.png alt = Π></td></tr>
+				<tr>
+					<td rowspan = 2>Π</td><td>π</td><td rowspan = 2><img src = Calligraphie/Grec/Π.png alt = Π></td>
+				</tr>
 				<tr><td>ϖ</td></tr>
-				<tr><td rowspan = 2>Ρ</td><td>ρ</td><td rowspan = 2><img src = Calligraphie/Grec/Ρ.png alt = Ρ></td></tr>
+				<tr>
+					<td rowspan = 2>Ρ</td><td>ρ</td><td rowspan = 2><img src = Calligraphie/Grec/Ρ.png alt = Ρ></td>
+				</tr>
 				<tr><td>ϱ</td></tr>
-				<tr><td rowspan = 2>Σ</td><td>σ</td><td rowspan = 2><img src = Calligraphie/Grec/Σ.png alt = Σ></td></tr>
+				<tr>
+					<td rowspan = 2>Σ</td>
+					<td>σ</td>
+					<td rowspan = 2>
+						<img
+							src = Calligraphie/Grec/Σ.png
+							title = "
+								La lettre « Σ » est habituellement représentée sous sa forme « Ϲ », issue de la déformation de sa forme minuscule finale « ς », et nommée « sigma lunaire »
+							"
+							alt = Σ
+						>
+					</td>
+				</tr>
 				<tr><td>ς</td></tr>
 				<tr><td>Ϲ</td><td>ϲ</td><td><img src = Calligraphie/Grec/Ϲ.png alt = Ϲ></td></tr>
 				<tr><td>Τ</td><td>τ</td><td><img src = Calligraphie/Grec/Τ.png alt = Τ></td></tr>
 				<tr><td>Υ</td><td>υ</td><td><img src = Calligraphie/Grec/Υ.png alt = Υ></td></tr>
-				<tr><td rowspan = 2>Φ</td><td>φ</td><td rowspan = 2><img src = Calligraphie/Grec/Φ.png alt = Φ></td></tr>
+				<tr>
+					<td rowspan = 2>Φ</td><td>φ</td><td rowspan = 2><img src = Calligraphie/Grec/Φ.png alt = Φ></td>
+				</tr>
 				<tr><td>ϕ</td></tr>
 				<tr><td>Χ</td><td>χ</td><td><img src = Calligraphie/Grec/Χ.png alt = Χ></td></tr>
 				<!-- <tr><td>Ψ</td><td>ψ</td><td><img src = Calligraphie/Grec/Ψ.png alt = Ψ></td></tr> -->
-				<tr><td>Ω</td><td>ω</td><td><img src = Calligraphie/Grec/Ω.png alt = Ω></td></tr>
+				<tr>
+					<td>Ω</td>
+					<td>ω</td>
+					<td>
+						<img
+							src = Calligraphie/Grec/Ω.png
+							title = "
+								La lettre « Ω » est représenté dans une très large mesure sous sa forme minuscule « ω » mais à la taille d'une majuscule
+							"
+							alt = Ω
+						>
+					</td>
+				</tr>
 			</table>
-			<!-- <p>
-				Les lettres ne changent globalement pas sauf deux : « Σ » et « Ω ».<br>
-				La première étant représenté sous sa forme « Ϲ », issue de la déformation de sa forme minuscule finale « ς », et nommée « sigma lunaire » en référence à sa forme de croissant de lune.<br>
-				La seconde étant représenté uniquement sous sa forme minuscule « ω » mais avec la taille d'une lettre majuscule normale.
-			</p> -->
 		</div><div>
 			<h3><hr>Alphabet latin<hr></h3>
 			<table class = table-latin>
@@ -71,7 +107,16 @@
 				<!-- <tr><td>F</td><td>f</td><td><img src = Calligraphie/Latin/F.png alt = F></td></tr> -->
 				<tr><td>G</td><td>g</td><td><img src = Calligraphie/Latin/G.png alt = G></td></tr>
 				<tr><td>H</td><td>h</td><td><img src = Calligraphie/Grec/Η.png alt = H></td></tr>
-				<tr><td>I</td><td>i</td><td rowspan = 2><img src = Calligraphie/Grec/Ι.png title = "La lettre « J » est issue d'une variation de la lettre « I »" alt = I></tr>
+				<tr>
+					<td>I</td>
+					<td>i</td>
+					<td rowspan = 2>
+						<img
+							src = Calligraphie/Grec/Ι.png
+							title = "La lettre « J » est issue d'une variation de la lettre « I »"
+							alt = I
+						>
+					</tr>
 				<tr><td>J</td><td>j</td></tr>
 				<!-- <tr><td>K</td><td>k</td><td><img src = Calligraphie/Grec/Κ.png alt = Κ></td></tr> -->
 				<tr><td>L</td><td>l</td><td><img src = Calligraphie/Latin/L.png alt = L></td></tr>
@@ -83,7 +128,17 @@
 				<tr><td>R</td><td>r</td><td><img src = Calligraphie/Latin/R.png alt = R></td></tr>
 				<tr><td>S</td><td>s</td><td><img src = Calligraphie/Latin/S.png alt = S></td></tr>
 				<tr><td>T</td><td>t</td><td><img src = Calligraphie/Grec/Τ.png alt = T></td></tr>
-				<tr><td>U</td><td>u</td><td rowspan = 2><img src = Calligraphie/Latin/V.png title = "La lettre « U » est issue d'une variation de la lettre « V »" alt = V></td></tr>
+				<tr>
+					<td>U</td>
+					<td>u</td>
+					<td rowspan = 2>
+						<img
+							src = Calligraphie/Latin/V.png
+							title = "La lettre « U » est issue d'une variation de la lettre « V »"
+							alt = V
+						>
+					</td>
+				</tr>
 				<tr><td>V</td><td>v</td></tr>
 				<!-- <tr><td>X</td><td>x</td><td><img src = Calligraphie/Grec/Χ.png alt = Χ></td></tr> -->
 				<!-- <tr><td>Y</td><td>y</td></tr> -->
@@ -191,6 +246,31 @@
 				<tr><td><img src = Calligraphie/Syriaque/ܫ.png alt = ܫ></td><td>ܫ<br>ܫـܫـܫ</td></tr>
 				<tr><td><img src = Calligraphie/Syriaque/ܬ.png alt = ܬ></td><td>ܬ<br>ܬـܬـܬ</td></tr>
 			</table>
+		<!-- </div><div> -->
+			<!-- <table class = table-hébreu> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/ת.png alt = ת></td><td>ת</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/ש.png alt = ש></td><td>ש</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/ר.png alt = ר></td><td>ר</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/ק.png alt = ק></td><td>ק</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/צ.png alt = צ></td><td>צ</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/פ.png alt = פ></td><td>פ</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/ע.png alt = ע></td><td>ע</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/ס.png alt = ס></td><td>ס</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/נ.png alt = נ></td><td>נ</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/מ.png alt = מ></td><td>מ</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/ל.png alt = ל></td><td>ל</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/כ.png alt = כ></td><td>כ</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/י.png alt = י></td><td>י</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/ט.png alt = ט></td><td>ט</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/ח.png alt = ח></td><td>ח</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/ז.png alt = ז></td><td>ז</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/ו.png alt = ו></td><td>ו</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/ה.png alt = ה></td><td>ה</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/ד.png alt = ד></td><td>ד</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/ג.png alt = ג></td><td>ג</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/ב.png alt = ב></td><td>ב</td></tr> -->
+				<!-- <tr><td><img src = Caligraphie/Hébreu/א.png alt = א></td><td>א</td></tr> -->
+			<!-- </table> -->
 		</div>
 <!-- 	</div><div> -->
 <!-- 	<h3><hr>Ponctuation<hr></h3> -->
@@ -362,7 +442,13 @@
 <div class = div-colonnes>
 	<table class = table-arabe>
 		<tr>
-			<td><img src = Textes/Arabe/من-يتبعْني-نلايشي-ني-الظلي-بل-تكونُ-له-الحياة-الأبدية.png class = img-4 alt = "من يتبعْني نلايشي ني الظلي بل تكونُ له الحياة الأبدية"</td>
+			<td>
+				<img
+					src = Textes/Arabe/من-يتبعْني-نلايشي-ني-الظلي-بل-تكونُ-له-الحياة-الأبدية.png
+					class = img-4
+					alt = "من يتبعْني نلايشي ني الظلي بل تكونُ له الحياة الأبدية"
+				>
+			</td>
 			<td>من يتبعْني نلايشي ني الظلي بل تكونُ له الحياة الأبدية</td>
 		</tr>
 	</table>
@@ -666,7 +752,7 @@
 		</tr>
 	</table><table class = table-syriaque>
 		<tr>
-			<td><img src = Noms/Syriaque/ܡܫܝܚܐ.png><img src = Noms/Syriaque/ܝܫܘܥ.png alt = ܝܫܘܥ></td>
+			<td><img src = Noms/Syriaque/ܡܫܝܚܐ.png alt = ܡܫܝܚܐ><img src = Noms/Syriaque/ܝܫܘܥ.png alt = ܝܫܘܥ></td>
 			<td>ܝܫܘܥ ܡܫܝܚܐ</td>
 		</tr>
 	</table>
@@ -834,7 +920,10 @@
 	<table class = table-grec>
 		<tr>
 			<td>ΚΟΣΜΆΣ</td>
-			<td><img src = Noms/Grec/ΚΟΣ.png class = img-3 alt = ΚΟΣ><img src = Noms/Grec/ΜΆΣ.png class = img-3 alt = ΜΆΣ></td>
+			<td>
+				<img src = Noms/Grec/ΚΟΣ.png class = img-3 alt = ΚΟΣ>
+				<img src = Noms/Grec/ΜΆΣ.png class = img-3 alt = ΜΆΣ>
+			</td>
 		</tr>
 	</table>
 </div>
@@ -843,7 +932,10 @@
 	<table class = table-grec>
 		<tr>
 			<td>ΔΑΜΙΑΝΌΣ</td>
-			<td><img src = Noms/Grec/ΔΑΜΙ.png class = img-4 alt = ΔΑΜΙ><img src = Noms/Grec/ΑΝΌΣ.png class = img-4 alt = ΑΝΌΣ></td>
+			<td>
+				<img src = Noms/Grec/ΔΑΜΙ.png class = img-4 alt = ΔΑΜΙ>
+				<img src = Noms/Grec/ΑΝΌΣ.png class = img-4 alt = ΑΝΌΣ>
+			</td>
 		</tr>
 	</table>
 </div>
@@ -852,7 +944,10 @@
 	<table class = table-grec>
 		<tr>
 			<td>ΓΕΏΡΓΙΟΣ</td>
-			<td><img src = Noms/Grec/ΓΕΏΡ.png class = img-3-accent alt = ΓΕΏΡ><img src = Noms/Grec/ΓΙΟΣ.png class = img-4 alt = ΓΙΟΣ></td>
+			<td>
+				<img src = Noms/Grec/ΓΕΏΡ.png class = img-3-accent alt = ΓΕΏΡ>
+				<img src = Noms/Grec/ΓΙΟΣ.png class = img-4 alt = ΓΙΟΣ>
+			</td>
 		</tr>
 	</table>
 </div>
@@ -861,7 +956,10 @@
 	<table class = table-grec>
 		<tr>
 			<td>ΔΗΜΉΤΡΙΟΣ</td>
-			<td><img src = Noms/Grec/ΔΗΜΉ.png class = img-4 alt = ΔΗΜΉ><img src = Noms/Grec/ΤΡΙΟΣ.png class = img-5 alt = ΤΡΙΟΣ></td>
+			<td>
+				<img src = Noms/Grec/ΔΗΜΉ.png class = img-4 alt = ΔΗΜΉ>
+				<img src = Noms/Grec/ΤΡΙΟΣ.png class = img-5 alt = ΤΡΙΟΣ>
+			</td>
 		</tr>
 	</table>
 </div>

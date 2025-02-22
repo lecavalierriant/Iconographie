@@ -189,7 +189,6 @@ document.addEventListener(
 		);
 		tableLégende = document.getElementById("table-légende");
 		tableLégende.insertRow().insertCell(0).outerHTML = "<th>Classe</th><th>Occurrences</th><th>Proportion</th>";
-		nouvelleLigneLégende("Défaut", total - nombreDeClasses, total);
 		for (classe in occurrences) {nouvelleLigneLégende(classe, occurrences[classe], total);}
 		nouvelleLigneLégende("Total", total, total);
 	}

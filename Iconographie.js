@@ -197,7 +197,7 @@ document.addEventListener(
 function nouvelleLigneLégende(classe, occurrences, total) {
 	pourcentage = (occurrences / total) * 100;
 	ligne = tableLégende.insertRow();
-	ligne.insertCell(0).outerHTML = "<td class = '" + classe + "'>" + classe + "</td>";
+	ligne.insertCell(0).outerHTML = "<th><table class = '" + classe + "'><td>" + classe + "</td></table><th>";
 	ligne.insertCell(1).textContent = occurrences;
 	ligne.insertCell(2).textContent = pourcentage.toFixed(1).replace(".", ",") + " %";
 }

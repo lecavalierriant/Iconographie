@@ -56,16 +56,7 @@ img {
 p {font-size: 20px;}
 
 .span-barre {text-decoration: overline;}
-
-#table-large table {
-	font-family: garamond;
-	font-size: 25px;
-}
-#table-long table {
-	font-family: garamond;
-	font-size: 50px;
-}
-#table-long {display: none;}
+.span-citation {font-style: italic;}
 
 td {
 	border: 2px #ffffff solid;
@@ -73,17 +64,14 @@ td {
 	font-family: times new roman;
 	letter-spacing: 4px;
 }
-.table-anglais td {border: #990000 dotted;}
-.table-arabe td {
-	border: #000099 dotted;
-	font-size: 35px;
-	letter-spacing: 0;
-}
-.table-cyrillique td {border: #009900 dotted;}
-.table-français td {border: #990000 dotted;}
 .table-grec td {border-color: #009900;}
+.table-cyrillique td,
+.table-copte td {border: #009900 dotted;}
 .table-latin td {border-color: #990000;}
-.table-roumain td {border: #990000 dotted;}
+.table-français td,
+.table-roumain td,
+.table-anglais td {border: #990000 dotted;}
+.table-arabe td,
 .table-syriaque td {
 	border: #000099 dotted;
 	font-size: 35px;
@@ -98,15 +86,8 @@ td {
 
 	img {filter: drop-shadow(0 0 0);}
 
-	#table-large {display: none;}
-	#table-long {display: table;}
-
 	td {border-radius: 50px;}
-	.table-arabe td {
-		border: #000099 dotted;
-		font-size: 70px;
-		letter-spacing: 0;
-	}
+	.table-arabe td,
 	.table-syriaque td {
 		border: #000099 dotted;
 		font-size: 70px;

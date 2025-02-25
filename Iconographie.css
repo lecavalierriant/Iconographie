@@ -72,7 +72,8 @@ td {
 .table-roumain td,
 .table-anglais td {border: #990000 dotted;}
 .table-arabe td,
-.table-syriaque td {
+.table-syriaque td,
+.table-hébreu td {
 	border: #000099 dotted;
 	font-size: 35px;
 	letter-spacing: 0;

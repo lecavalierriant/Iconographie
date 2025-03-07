@@ -55,8 +55,9 @@ img {
 
 p {font-size: 20px;}
 
-.span-barre {text-decoration: overline;}
 .span-citation {font-style: italic;}
+.span-surligné {text-decoration: overline;}
+.span-souligné {text-decoration: underline;}
 
 td {
 	border: 2px #ffffff solid;

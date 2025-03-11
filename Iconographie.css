@@ -39,19 +39,22 @@ h3 {
 
 img {
 	filter: drop-shadow(0 0 1px #ffffff);
-	height: 100px;
+	height: 50px;
 }
-.img-1-accent {height: 125px;}
-.img-2 {height: 210px;}
-.img-2-accent {height: 235px;}
-.img-3 {height: 320px;}
-.img-3-accent {height: 345px;}
-.img-3-accents-2 {height: 370px;}
-.img-4 {height: 430px;}
-.img-4-accent {height: 455px;}
-.img-5 {height: 540px;}
-.img-5-accent {height: 555px;}
-.img-7-accent {height: 775px;}
+.img-1-accent {height: 62.5px;}
+.img-2 {height: 105px;}
+.img-2-accent {height: 117.5;}
+.img-3 {height: 160px;}
+.img-3-accent {height: 172.5px;}
+.img-3-accents-2 {height: 185px;}
+.img-4 {height: 215px;}
+.img-4-accent {height: 227.5px;}
+.img-5 {height: 270px;}
+.img-5-accent {height: 277.5px;}
+.img-6 {height: 325px;}
+.img-6-accent {height: 277.5px;}
+.img-7 {height: 380px;}
+.img-7-accent {height: 387.5px;}
 
 p {font-size: 20px;}
 

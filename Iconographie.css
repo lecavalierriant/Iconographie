@@ -62,25 +62,29 @@ p {font-size: 20px;}
 .span-surligné {text-decoration: overline;}
 .span-souligné {text-decoration: underline;}
 
-td {
-	border: 2px #ffffff solid;
-	border-radius: 10px;
-	font-family: georgia;
-	letter-spacing: 4px;
-}
-.table-grec td {border-color: #009900;}
-.table-cyrillique td,
-.table-copte td {border: #009900 dotted;}
-.table-latin td {border-color: #990000;}
-.table-français td,
-.table-roumain td,
-.table-anglais td {border: #990000 dotted;}
-.table-arabe td,
-.table-syriaque td,
-.table-hébreu td {
+table {border: 2px #ffffff solid;}
+.table-grec {border-color: #009900;}
+.table-cyrillique,
+.table-copte {border: #009900 dotted;}
+.table-latin {border-color: #990000;}
+.table-français,
+.table-roumain,
+.table-anglais {border: #990000 dotted;}
+.table-arabe,
+.table-syriaque,
+.table-hébreu {
 	border: #000099 dotted;
 	font-size: 35px;
 	letter-spacing: 0;
+}
+
+td {
+	border: 1px #ffffff solid;
+	font-family: georgia;
+	letter-spacing: 4px;
+}
+.td-diminutif {
+	border: 2px #eddb34 dotted;
 }
 
 @media (max-width: 1000px) {
@@ -91,9 +95,8 @@ td {
 
 	img {filter: drop-shadow(0 0 0);}
 
-	td {border-radius: 50px;}
-	.table-arabe td,
-	.table-syriaque td {
+	.table-arabe,
+	.table-syriaque {
 		border: #000099 dotted;
 		font-size: 70px;
 		letter-spacing: 0;

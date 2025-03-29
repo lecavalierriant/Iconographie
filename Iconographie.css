@@ -43,7 +43,7 @@ img {
 }
 .img-1-accent {height: 62.5px;}
 .img-2 {height: 105px;}
-.img-2-accent {height: 117.5;}
+.img-2-accent {height: 117.5px;}
 .img-3 {height: 160px;}
 .img-3-accent {height: 172.5px;}
 .img-3-accents-2 {height: 185px;}
@@ -83,8 +83,8 @@ td {
 	font-family: georgia;
 	letter-spacing: 4px;
 }
-.td-diminutif {
-	border: 2px #eddb34 dotted;
+.tr-diminutif {
+	border: 1.5px #eddb34 dotted;
 }
 
 @media (max-width: 1000px) {

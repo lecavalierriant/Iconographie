@@ -83,9 +83,13 @@ td {
 	font-family: georgia;
 	letter-spacing: 4px;
 }
-.tr-diminutif {
-	border: 1.5px #eddb34 dotted;
+#table-cas td {letter-spacing: 0;}
+#table-légende td {
+	letter-spacing: 0;
+	font-size: 25px;
 }
+
+.tr-diminutif {border: 1.5px #eddb34 dotted;}
 
 @media (max-width: 1000px) {
 
